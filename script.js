@@ -1,3 +1,10 @@
+
+// 1. Conditional
+// 2. Loop
+// 3. Function
+
+
+
 //alert('Sabdhan hoye jao Pollob');
 
 /* let Name = 'Sajid Ahmed';
@@ -80,12 +87,20 @@ function div(a, b){
     }
     console.log(sum/3);
 }
-div(10, 20);*/
+div(10, 20);
 
 function sajid(a, b, c){
     
 }
-sajid(66, 88, 77);
+sajid(66, 88, 77);*/
+
+var a = 50;
+var b = 55;
+var c = 40;
+
+a>b ? console.log('a is smaller'):(
+    b>c ? console.log('b is biggest'):console.log('a is biggest')
+);
 
 
 
