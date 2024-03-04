@@ -94,14 +94,21 @@ function sajid(a, b, c){
 }
 sajid(66, 88, 77);*/
 
-var a = 50;
-var b = 55;
-var c = 40;
 
-a>b ? console.log('a is smaller'):(
-    b>c ? console.log('b is biggest'):console.log('a is biggest')
-);
+// var a = 50;
+// var b = 55;
+// var c = 40;
 
+// a>b ? console.log('a is smaller'):(
+//     b>c ? console.log('b is biggest'):console.log('a is biggest')
+// );
+
+function age(a, b, c){
+    a<b ? console.log(`persons age ${a} is greater`):(
+        b>c ? console.log(`persons age ${b} is greater`):console.log(`persons age ${c} is greater`)
+    )
+};
+age(40, 35, 45)
 
 
 
