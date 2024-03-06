@@ -103,13 +103,22 @@ sajid(66, 88, 77);*/
 //     b>c ? console.log('b is biggest'):console.log('a is biggest')
 // );
 
-function age(a, b, c){
-    a<b ? console.log(`persons age ${a} is greater`):(
-        b>c ? console.log(`persons age ${b} is greater`):console.log(`persons age ${c} is greater`)
-    )
-};
-age(40, 35, 45)
 
+// function age(a, b, c){
+//     a<b ? console.log(`persons age ${a} is greater`):(
+//         b>c ? console.log(`persons age ${b} is greater`):console.log(`persons age ${c} is greater`)
+//     )
+// };
+// age(40, 35, 45)
+
+
+var student1 = {
+    name: "Sajid Ahmed",
+    Age: 23,
+    GPA: 4.58,
+    Subjects: "Bangla, English, Math, ICT"
+}
+console.log(student1.Age, student1.name);
 
 
 
