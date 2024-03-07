@@ -121,13 +121,40 @@ sajid(66, 88, 77);*/
 // console.log(student1.Age, student1.name);
 
 
-var students = {
-    name: 'Sajid Ahmed',
-    Age: 23,
-    CGPA: 3.5,
-    Subjects: 'Bangla, English, ICT'
+// var students = {
+//     name: 'Sajid Ahmed',
+//     Age: 23,
+//     CGPA: 3.5,
+//     Subjects: 'Bangla, English, ICT'
+// }
+// console.log(students.Subjects, students.Age);
+
+
+// class mark{
+//     constructor(bangla, english, math){
+//         this.total = (bangla + english + math);
+//     }
+// }
+// console.log(new mark(67, 89, 80).total);
+
+
+// class totalMilk{
+//     constructor(cow, milk){
+//         this.milk = milk * cow;
+//     }
+// }
+// console.log(new totalMilk(55, 6).milk);
+
+
+class cars{
+    constructor(staring, wheel, glass){
+        this.staring = staring;
+        this.wheel = wheel;
+        this.glass = glass;
+    }
+
 }
-console.log(students.Subjects, students.Age);
+let x = new cars(100, 100, 100).cars;
 
 
 
