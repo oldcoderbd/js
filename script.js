@@ -146,15 +146,22 @@ sajid(66, 88, 77);*/
 // console.log(new totalMilk(55, 6).milk);
 
 
-class cars{
-    constructor(staring, wheel, glass){
-        this.staring = staring;
-        this.wheel = wheel;
-        this.glass = glass;
+class Car{
+    constructor(piece){
+        this.piece;
+        this.car;
     }
+    bmw(piece){
+        let tyre = piece/5;
+        let look = piece/3;
+        let str = piece;
 
+        if(tyre<look && look<str){
+            this.car = console.log(tyre);
+        }
+        else this.car = Vi
+    }
 }
-let x = new cars(100, 100, 100).cars;
 
 
 
