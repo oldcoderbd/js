@@ -112,14 +112,22 @@ sajid(66, 88, 77);*/
 // age(40, 35, 45)
 
 
-var student1 = {
-    name: "Sajid Ahmed",
-    Age: 23,
-    GPA: 4.58,
-    Subjects: "Bangla, English, Math, ICT"
-}
-console.log(student1.Age, student1.name);
+// var student1 = {
+//     name: "Sajid Ahmed",
+//     Age: 23,
+//     GPA: 4.58,
+//     Subjects: "Bangla, English, Math, ICT"
+// }
+// console.log(student1.Age, student1.name);
 
+
+var students = {
+    name: 'Sajid Ahmed',
+    Age: 23,
+    CGPA: 3.5,
+    Subjects: 'Bangla, English, ICT'
+}
+console.log(students.Subjects, students.Age);
 
 
 
