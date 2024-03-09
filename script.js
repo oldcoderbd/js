@@ -164,14 +164,20 @@ sajid(66, 88, 77);*/
 // }
 
 
-let x = 3;
+// let x = 3;
 
-function namta(x){
-    for (let a=1; a<=10; a++){
-        console.log(`${x}*${a} = ${x*a}`);
-    }
-}
-namta(3);
+// function namta(x){
+//     for (let a=1; a<=10; a++){
+//         console.log(`${x}*${a} = ${x*a}`);
+//     }
+// }
+// namta(3);
+
+
+
+const cloathing = ['shoe', 'pant', 'shirt', 'sunglass', 'socks',];
+console.log(cloathing.length)
+
 
 
 
