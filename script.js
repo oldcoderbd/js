@@ -146,24 +146,32 @@ sajid(66, 88, 77);*/
 // console.log(new totalMilk(55, 6).milk);
 
 
-class Car{
-    constructor(piece){
-        this.piece;
-        this.car;
-    }
-    bmw(piece){
-        let tyre = piece/5;
-        let look = piece/3;
-        let str = piece;
+// class Car{
+//     constructor(piece){
+//         this.piece;
+//         this.car;
+//     }
+//     bmw(piece){
+//         let tyre = piece/5;
+//         let look = piece/3;
+//         let str = piece;
 
-        if(tyre<look && look<str){
-            this.car = console.log(tyre);
-        }
-        else this.car = Vi
+//         if(tyre<look && look<str){
+//             this.car = console.log(tyre);
+//         }
+//         else this.car = Vi
+//     }
+// }
+
+
+let x = 3;
+
+function namta(x){
+    for (let a=1; a<=10; a++){
+        console.log(`${x}*${a} = ${x*a}`);
     }
 }
-
-
+namta(3);
 
 
 
