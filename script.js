@@ -175,8 +175,32 @@ sajid(66, 88, 77);*/
 
 
 
-const cloathing = ['shoe', 'pant', 'shirt', 'sunglass', 'socks',];
-console.log(cloathing.length)
+// const cloathing = ['shoe', 'pant', 'shirt', 'sunglass', 'socks',];
+// // console.log(cloathing.length);
+// console.log(cloathing.at(3));
+
+// const array1=[1, 2, 3, 4, 5]
+// const array2=[6, 7, 8, 9, 10]
+// const array3=array1.concat(array2);
+// console.log(array3);
+
+
+// let pollobRoll = (underTen) => underTen <=10;
+
+// let array1 = [1, 2, 3, 4, 6, 9, 10];
+
+// console.log(array1.every(pollobRoll));
+
+
+// let array1 = [1, 2, 3, 4 , 6, 8, 9];
+// console.log(array1.fill(3, 4, 9));
+
+
+
+let words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+
+let result = words.filter((word) => word.length < 6);
+console.log(result);
 
 
 
