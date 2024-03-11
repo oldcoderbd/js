@@ -255,13 +255,30 @@ sajid(66, 88, 77);*/
 
 
 
-let letter = prompt("Enter a letter: ");
-letter = letter.toLowerCase();
-switch(letter){
-    case "a": console.log("Vowel"); break;
-    case "e": console.log("Vowel"); break;
-    case "i": console.log("Vowel"); break;
-    case "o": console.log("Vowel"); break;
-    case "u": console.log("Vowel"); break;
-    default: console.log(`${letter} is a consonant`);
+// let letter = prompt("Enter a letter: ");
+// letter = letter.toLowerCase();
+// switch(letter){
+//     case "a": console.log("Vowel"); break;
+//     case "e": console.log("Vowel"); break;
+//     case "i": console.log("Vowel"); break;
+//     case "o": console.log("Vowel"); break;
+//     case "u": console.log("Vowel"); break;
+//     default: console.log(`${letter} is a consonant`);
+// }
+
+
+// let x = 1;
+// sum = 0;
+// while(x <= 50){
+//     sum = sum+x
+//     x++;
+// }
+// console.log(sum);
+
+let sum = 0;
+for(let x = 1; x <= 100; x++);{
+    if(x%3==0 && x%5==0){
+       let sum = sum + i;
+    }
+    console.log(sum);
 }
