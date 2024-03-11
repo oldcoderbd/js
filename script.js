@@ -197,14 +197,40 @@ sajid(66, 88, 77);*/
 
 
 
-let words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+// let words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
 
-let result = words.filter((word) => word.length < 6);
-console.log(result);
-
-
+// let result = words.filter((word) => word.length < 6);
+// console.log(result);
 
 
+// let array1 = [1, 34, 58, 97, 157];
+// let result = array1.find(element => element >50);
+// console.log(result);
+
+
+// let array1 = [1,2,3,4,5,6,7,8,9,10];
+
+// let map1 = array1.map((x) =>
+// {
+//     if(x%2==0){
+//         console.log(`${x} is an even number`);
+//     }
+//     else console.log(`${x} is an odd`)
+// }
+// )
+
+
+
+let array1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+
+let map1 = array1.map((x) =>
+    {
+        if (x%2==0){
+            console.log(`${x} is an even`)
+        }
+        else console.log(`${x} is an odd`)
+    }
+)
 
 
 
