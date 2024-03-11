@@ -221,17 +221,28 @@ sajid(66, 88, 77);*/
 
 
 
-let array1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+// let array1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 
-let map1 = array1.map((x) =>
-    {
-        if (x%2==0){
-            console.log(`${x} is an even`)
-        }
-        else console.log(`${x} is an odd`)
-    }
-)
+// let map1 = array1.map((x) =>
+//     {
+//         if (x%2==0){
+//             console.log(`${x} is an even`)
+//         }
+//         else console.log(`${x} is an odd`)
+//     }
+// )
 
+
+
+let names = ['makarim', 'tomal', 'pollob', 'sajid', 'sabbir', 'shovon', 'sumiya', 'sojib', 'jahid', 'sakhawat'];
+
+console.log(names.slice(-6));
+
+names.push(names.slice(0,3));
+console.log(names.flat());
+
+names2 = names.shift();
+console.log(names2);
 
 
 
