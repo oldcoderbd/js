@@ -234,18 +234,34 @@ sajid(66, 88, 77);*/
 
 
 
-let names = ['makarim', 'tomal', 'pollob', 'sajid', 'sabbir', 'shovon', 'sumiya', 'sojib', 'jahid', 'sakhawat'];
+// let names = ['makarim', 'tomal', 'pollob', 'sajid', 'sabbir', 'shovon', 'sumiya', 'sojib', 'jahid', 'sakhawat'];
 
-console.log(names.slice(-6));
+// console.log(names.slice(-6));
 
-names.push(names.slice(0,3));
-console.log(names.flat());
+// names.push(names.slice(0,3));
+// console.log(names.flat());
 
-names2 = names.shift();
-console.log(names2);
-
-
+// names2 = names.shift();
+// console.log(names2);
 
 
 
+// let letter = prompt("Enter a letter: ");
+// letter = letter.toLowerCase();
+// if (letter == "a" || letter == "e")
+// console.log("Vowel");
 
+// else console.log("Consonant");
+
+
+
+let letter = prompt("Enter a letter: ");
+letter = letter.toLowerCase();
+switch(letter){
+    case "a": console.log("Vowel"); break;
+    case "e": console.log("Vowel"); break;
+    case "i": console.log("Vowel"); break;
+    case "o": console.log("Vowel"); break;
+    case "u": console.log("Vowel"); break;
+    default: console.log(`${letter} is a consonant`);
+}
