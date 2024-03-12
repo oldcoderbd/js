@@ -302,5 +302,14 @@ sajid(66, 88, 77);*/
 
 
 
-let abc = 3;
-let result = abc > 2 ? console.log("abc is greater than 2") : abc < 4 ? console.log("abc is less than 4") : console.log("abc is equal to");
+// let abc = 3;
+// let result = abc > 2 ? console.log("abc is greater than 2") : abc < 4 ? console.log("abc is less than 4") : console.log("abc is equal to");
+
+
+
+let a = 4;
+let b = 6;
+let c = 9;
+
+let big = a>b && a>c ? a : b>a && b>c ? b : c;
+console.log(big);
