@@ -307,9 +307,40 @@ sajid(66, 88, 77);*/
 
 
 
-let a = 4;
-let b = 6;
-let c = 9;
+// let a = 4;
+// let b = 6;
+// let c = 9;
 
-let big = a>b && a>c ? a : b>a && b>c ? b : c;
-console.log(big);
+// let big = a>b && a>c ? a : b>a && b>c ? b : c;
+// console.log(big);
+
+
+// function sun(alo){
+//     let moon  = alo * alo;
+//     console.log(moon);
+// }
+// sun(200);
+
+
+function sum(a,b){
+    let result = a + b;
+    console.log("sum = "+result + "</br>");
+}
+function sub(a,b){
+    let result = a + b;
+    console.log("sub = "+result + "</br>");
+}
+function multi(a,b){
+    let result = a + b;
+    console.log("multi = "+result + "</br>");
+}
+function vida(a,b){
+    let result = a + b;
+    console.log("diva = "+result + "</br>");
+}
+
+
+sum(30,72);
+sub(40.27);
+multi(4,8);
+diva(40,6);
