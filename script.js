@@ -275,10 +275,27 @@ sajid(66, 88, 77);*/
 // }
 // console.log(sum);
 
-let sum = 0;
-for(let x = 1; x <= 100; x++);{
-    if(x%3==0 && x%5==0){
-       let sum = sum + i;
+// let sum = 0;
+// for(let x = 1; x <= 100; x++);{
+//     if(x%3==0 && x%5==0){
+//        let sum = sum + i;
+//     }
+//     console.log(sum);
+// }
+
+
+// let a = 1;
+// do{
+// document.write(""+1);
+// a++;
+// }while(a=>10);
+
+
+for (let x = 1; x =>100; x+2){
+
+    console.log(" " +x);
+
+    if (x == 40){
+        break;
     }
-    console.log(sum);
 }
