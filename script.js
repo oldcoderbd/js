@@ -291,11 +291,16 @@ sajid(66, 88, 77);*/
 // }while(a=>10);
 
 
-for (let x = 1; x =>100; x+2){
+// for (let x = 1; x =>100; x+2){
 
-    console.log(" " +x);
+//     console.log(" " +x);
 
-    if (x == 40){
-        break;
-    }
-}
+//     if (x == 40){
+//         break;
+//     }
+// }
+
+
+
+let abc = 3;
+let result = abc > 2 ? console.log("abc is greater than 2") : abc < 4 ? console.log("abc is less than 4") : console.log("abc is equal to");
