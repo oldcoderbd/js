@@ -322,25 +322,87 @@ sajid(66, 88, 77);*/
 // sun(200);
 
 
-function sum(a,b){
-    let result = a + b;
-    console.log("sum = "+result + "</br>");
-}
-function sub(a,b){
-    let result = a + b;
-    console.log("sub = "+result + "</br>");
-}
-function multi(a,b){
-    let result = a + b;
-    console.log("multi = "+result + "</br>");
-}
-function vida(a,b){
-    let result = a + b;
-    console.log("diva = "+result + "</br>");
-}
+// function sum(a,b){
+//     let result = a + b;
+//     console.log("sum = "+result + "</br>");
+// }
+// function sub(a,b){
+//     let result = a + b;
+//     console.log("sub = "+result + "</br>");
+// }
+// function multi(a,b){
+//     let result = a + b;
+//     console.log("multi = "+result + "</br>");
+// }
+// function vida(a,b){
+//     let result = a + b;
+//     console.log("diva = "+result + "</br>");
+// }
 
 
-sum(30,72);
-sub(40.27);
-multi(4,8);
-diva(40,6);
+// sum(30,72);
+// sub(40.27);
+// multi(4,8);
+// diva(40,6);
+
+
+
+// Exam start from here
+
+
+
+
+
+
+let sub1mark = 44;
+let sub2mark = 55;
+let sub3mark = 66;
+let sub4mark = 77;
+let sub5mark = 88;
+
+if (sub1mark >= 40 && sub2mark >= 40 && sub3mark >= 40 && sub4mark >= 40 && sub5mark >= 40){
+    console.log("You are Pass");
+}
+else console.log("You are Fail");
+
+// for me
+
+const sajidAhmed = class {
+    constructor(Name, Mark, Hobby) {
+      this.Name = Name;
+      this.Mark = Mark;
+      this.Hobby = Hobby;
+    }
+    details() {
+      return this.Name + this.Mark + this.Hobby;
+    }
+  };
+  console.log(new sajidAhmed("Sajid", 99, "Coding").details());
+
+
+// for kalam
+
+  const kalam = class {
+    constructor(Name, Mark, Hobby) {
+      this.Name = Name;
+      this.Mark = Mark;
+      this.Hobby = Hobby;
+    }
+    details() {
+      return this.Name + this.Mark + this.Hobby;
+    }
+  };
+  console.log(new sajidAhmed("Kalam", 95, "Football").details());
+
+
+  let mark = 60;
+  let sub = 5;
+  let total = mark * sub;
+  
+  for (let x = 1; x <= 30; x++){
+    let result =total * x;
+    console.log(result);
+  }
+
+
+
