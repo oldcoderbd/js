@@ -354,6 +354,8 @@ sajid(66, 88, 77);*/
 
 
 
+/*
+
 let sub1mark = 44;
 let sub2mark = 55;
 let sub3mark = 66;
@@ -403,6 +405,19 @@ const sajidAhmed = class {
     let result =total * x;
     console.log(result);
   }
+  */
+
+
+  let array1 = [2,3,5,7,9];
+
+  let intValue = 1;
+  let multi = array1.reduce((accumulator, currentValue) => accumulator * currentValue, intValue,);
+  console.log(multi);
+
+  let array2 = [2,3,5,7,9,13];
+  let int = 1;
+  let sum = array2.reduce((a,b) =>a + b, int);
+  console.log(sum);
 
 
 
