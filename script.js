@@ -408,16 +408,33 @@ const sajidAhmed = class {
   */
 
 
-  let array1 = [2,3,5,7,9];
+//   let array1 = [2,3,5,7,9];
 
-  let intValue = 1;
-  let multi = array1.reduce((accumulator, currentValue) => accumulator * currentValue, intValue,);
-  console.log(multi);
+//   let intValue = 1;
+//   let multi = array1.reduce((accumulator, currentValue) => accumulator * currentValue, intValue,);
+//   console.log(multi);
 
-  let array2 = [2,3,5,7,9,13];
-  let int = 1;
-  let sum = array2.reduce((a,b) =>a + b, int);
-  console.log(sum);
+//   let array2 = [2,3,5,7,9,13];
+//   let int = 1;
+//   let sum = array2.reduce((a,b) =>a + b, int);
+//   console.log(sum);
 
+
+
+let A = [50, 107, "jack", 83, "killer", "son", true]
+
+// No. 1 Answer
+let striFilter = A.filter(arrayFilter => typeof arrayFilter === "string");
+console.log(striFilter);
+
+// No. 2 Answer
+let numFilter = A.filter(arrayFilter => typeof arrayFilter === "number");
+console.log(numFilter);
+
+// No. 3 Answer
+let reversed = striFilter.reverse();
+console.log('reversed:', reversed);
+
+// No. 4 Answer
 
 
