@@ -421,20 +421,42 @@ const sajidAhmed = class {
 
 
 
-let A = [50, 107, "jack", 83, "killer", "son", true]
+// let A = [50, 107, "jack", 83, "killer", "son", true]
 
-// No. 1 Answer
-let striFilter = A.filter(arrayFilter => typeof arrayFilter === "string");
-console.log(striFilter);
+// // No. 1 Answer
+// let striFilter = A.filter(arrayFilter => typeof arrayFilter === "string");
+// console.log(striFilter);
 
-// No. 2 Answer
-let numFilter = A.filter(arrayFilter => typeof arrayFilter === "number");
-console.log(numFilter);
+// // No. 2 Answer
+// let numFilter = A.filter(arrayFilter => typeof arrayFilter === "number");
+// console.log(numFilter);
 
-// No. 3 Answer
-let reversed = striFilter.reverse();
-console.log('reversed:', reversed);
+// // No. 3 Answer
+// let reversed = striFilter.reverse();
+// console.log('reversed:', reversed);
 
-// No. 4 Answer
+// // No. 4 Answer
 
+let sajid = {
+  name: "Sajid Ahmed",
+  roll: 135,
+  result: {
+    bangla: 87,
+    english: 66,
+    math: 88,
+    GK: 95,
+    ICT: 100,
+  }
+}
+
+let total = sajid.result.bangla + sajid.result.english + sajid.result.math + sajid.result.GK + sajid.result.ICT;
+console.log(total);
+
+const me = {
+  Name: sajid.name,
+  Roll: sajid.roll,
+  Result: total,
+};
+
+console.log(me);
 
