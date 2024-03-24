@@ -437,26 +437,45 @@ const sajidAhmed = class {
 
 // // No. 4 Answer
 
-let sajid = {
-  name: "Sajid Ahmed",
-  roll: 135,
-  result: {
-    bangla: 87,
-    english: 66,
-    math: 88,
-    GK: 95,
-    ICT: 100,
-  }
-}
+// let sajid = {
+//   name: "Sajid Ahmed",
+//   roll: 135,
+//   result: {
+//     bangla: 87,
+//     english: 66,
+//     math: 88,
+//     GK: 95,
+//     ICT: 100,
+//   }
+// }
 
-let total = sajid.result.bangla + sajid.result.english + sajid.result.math + sajid.result.GK + sajid.result.ICT;
-console.log(total);
+// let total = sajid.result.bangla + sajid.result.english + sajid.result.math + sajid.result.GK + sajid.result.ICT;
+// console.log(total);
 
-const me = {
-  Name: sajid.name,
-  Roll: sajid.roll,
-  Result: total,
-};
+// const me = {
+//   Name: sajid.name,
+//   Roll: sajid.roll,
+//   Result: total,
+// };
 
-console.log(me);
+// console.log(me);
 
+
+// const object1 = {
+//   property1: 42,
+// };
+// Object.seal(object1);
+
+// let val = 0;
+// function sum(){
+//   val = val + 5;
+//   document.querySelector('.pp').innerHTML = val;
+// }
+
+// let bt = document.querySelector('.bt');
+
+// bt.addEventListener("click",sum);
+
+
+
+let aa = document.querySelector()
